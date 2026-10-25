@@ -66,7 +66,7 @@ const copyButton = document.querySelector('#copy-discord');
 const feedback = document.querySelector('#copy-feedback');
 if (copyButton && feedback) {
   copyButton.addEventListener('click', async () => {
-    const username = 'nawafali0446';
+    const username = '_positive1234';
     try {
       await navigator.clipboard.writeText(username);
       feedback.textContent = 'Discord username copied!';
